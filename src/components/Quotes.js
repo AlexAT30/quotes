@@ -1,10 +1,10 @@
-const Quotes = ({quote, author}) => {
+const Quotes = ({quote, author, randomColor}) => {
   return (
-    <div>
-      <h2>
+    <div className="quotes">
+      <p className="quote">
         {quote}
-      </h2>
-      <p>
+      </p>
+      <p className={`author randomColorAuthor${randomColor}`} >
         - {author}
       </p>
     </div>

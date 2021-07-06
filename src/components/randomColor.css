@@ -1,0 +1,262 @@
+:root {
+/* Paletas de colores */
+  --background-color1: #F7DAD9;
+  --quotes-color1: #FFF5DA;
+  --buttons-color1: #D6D2C4;
+  --color1: #5D534A;
+
+  --background-color2: #CEE5D0;
+  --quotes-color2: #F3F0D7;
+  --buttons-color2: #D8B384;
+  --color2: #5E454B;
+
+  --background-color3: #DFEEEA;
+  --quotes-color3: #A7C4BC;
+  --buttons-color3: #5E8B7E;
+  --color3: #2F5D62;
+
+  --background-color4: #E1F1DD;
+  --quotes-color4: #CDC7BE;
+  --buttons-color4: #87A7B3;
+  --color4: #766161;
+
+  --background-color5: #F8F4E1;
+  --quotes-color5: #897853;
+  --buttons-color5: #4E3620;
+  --color5: #C8EED9;
+
+  --background-color6: #F0E4D7;
+  --quotes-color6: #F5C0C0;
+  --buttons-color6: #9FD8DF;
+  --color6: #FF7171;
+
+  --background-color7: #E5DF88;
+  --quotes-color7: #E8E8E8;
+  --buttons-color7: #383E56;
+  --color7: #FB743E;
+
+  --background-color8: #F4F9F9;
+  --quotes-color8: #CCF2F4;
+  --buttons-color8: #A4EBF3;
+  --color8: #AAAAAA;
+
+  --background-color9: #D9E4DD;
+  --quotes-color9: #FBF7F0;
+  --buttons-color9: #CDC9C3;
+  --color9: #555555;
+
+  --background-color10: #BBBBBB;
+  --quotes-color10: #E2D5D5;
+  --buttons-color10: #8E7F7F;
+  --color10: #865858;
+}
+
+/* Author */
+.randomColorAuthor1 {
+  color: var(--color1);
+}
+.randomColorAuthor2 {
+  color: var(--color2);
+}
+.randomColorAuthor3 {
+  color: var(--color3);
+}
+.randomColorAuthor4 {
+  color: var(--color4);
+}
+.randomColorAuthor5 {
+  color: var(--color5);
+}
+.randomColorAuthor6 {
+  color: var(--color6);
+}
+.randomColorAuthor7 {
+  color: var(--color7);
+}
+.randomColorAuthor8 {
+  color: var(--color8);
+}
+.randomColorAuthor9 {
+  color: var(--color9);
+}
+.randomColorAuthor10 {
+  color: var(--color10);
+}
+/* Buttons */
+.randomColorButtons1 {
+  background-color: var(--buttons-color1);
+  color: var(--color1);
+}
+.randomColorButtons2 {
+  background-color: var(--buttons-color2);
+  color: var(--color2);
+}
+.randomColorButtons3 {
+  background-color: var(--buttons-color3);
+  color: var(--color3);
+}
+.randomColorButtons4 {
+  background-color: var(--buttons-color4);
+  color: var(--color4);
+}
+.randomColorButtons5 {
+  background-color: var(--buttons-color5);
+  color: var(--color5);
+}
+.randomColorButtons6 {
+  background-color: var(--buttons-color6);
+  color: var(--color6);
+}
+.randomColorButtons7 {
+  background-color: var(--buttons-color7);
+  color: var(--color7);
+}
+.randomColorButtons8 {
+  background-color: var(--buttons-color8);
+  color: var(--color8);
+}
+.randomColorButtons9 {
+  background-color: var(--buttons-color9);
+  color: var(--color9);
+}
+.randomColorButtons10 {
+  background-color: var(--buttons-color10);
+  color: var(--color10);
+}
+/* Twitter */
+.randomColorTwitter1 {
+  color: var(--color1);
+}
+.randomColorTwitter2 {
+  color: var(--color2);
+}
+.randomColorTwitter3 {
+  color: var(--color3);
+}
+.randomColorTwitter4 {
+  color: var(--color4);
+}
+.randomColorTwitter5 {
+  color: var(--color5);
+}
+.randomColorTwitter6 {
+  color: var(--color6);
+}
+.randomColorTwitter7 {
+  color: var(--color7);
+}
+.randomColorTwitter8 {
+  color: var(--color8);
+}
+.randomColorTwitter9 {
+  color: var(--color9);
+}
+.randomColorTwitter10 {
+  color: var(--color10);
+}
+/* Buttons hover */
+.randomColorButtons1:hover, .randomColorButtons1:hover a {
+  color: var(--buttons-color1);
+  background-color: var(--color1);
+}
+.randomColorButtons2:hover, .randomColorButtons2:hover a {
+  color: var(--buttons-color2);
+  background-color: var(--color2);
+}
+.randomColorButtons3:hover, .randomColorButtons3:hover a {
+  color: var(--buttons-color3);
+  background-color: var(--color3);
+}
+.randomColorButtons4:hover, .randomColorButtons4:hover a {
+  color: var(--buttons-color4);
+  background-color: var(--color4);
+}
+.randomColorButtons5:hover, .randomColorButtons5:hover a {
+  color: var(--buttons-color5);
+  background-color: var(--color5);
+}
+.randomColorButtons6:hover, .randomColorButtons6:hover a {
+  color: var(--buttons-color6);
+  background-color: var(--color6);
+}
+.randomColorButtons7:hover, .randomColorButtons7:hover a {
+  color: var(--buttons-color7);
+  background-color: var(--color7);
+}
+.randomColorButtons8:hover, .randomColorButtons8:hover a {
+  color: var(--buttons-color8);
+  background-color: var(--color8);
+}
+.randomColorButtons9:hover, .randomColorButtons9:hover a {
+  color: var(--buttons-color9);
+  background-color: var(--color9);
+}
+.randomColorButtons10:hover, .randomColorButtons10:hover a {
+  color: var(--buttons-color10);
+  background-color: var(--color10);
+}
+/* Container */
+.randomColorContainer1 {
+  background-color: var(--quotes-color1);
+}
+.randomColorContainer2 {
+  background-color: var(--quotes-color2);
+}
+.randomColorContainer3 {
+  background-color: var(--quotes-color3);
+}
+.randomColorContainer4 {
+  background-color: var(--quotes-color4);
+}
+.randomColorContainer5 {
+  background-color: var(--quotes-color5);
+}
+.randomColorContainer6 {
+  background-color: var(--quotes-color6);
+}
+.randomColorContainer7 {
+  background-color: var(--quotes-color7);
+}
+.randomColorContainer8 {
+  background-color: var(--quotes-color8);
+}
+.randomColorContainer9 {
+  background-color: var(--quotes-color9);
+}
+.randomColorContainer10 {
+  background-color: var(--quotes-color10);
+}
+/* Background */
+.randomColorBackground1 {
+  background-color: var(--background-color1);
+}
+.randomColorBackground2 {
+  background-color: var(--background-color2);
+}
+.randomColorBackground3 {
+  background-color: var(--background-color3);
+}
+.randomColorBackground4 {
+  background-color: var(--background-color4);
+}
+.randomColorBackground5 {
+  background-color: var(--background-color5);
+}
+.randomColorBackground6 {
+  background-color: var(--background-color6);
+}
+.randomColorBackground7 {
+  background-color: var(--background-color7);
+}
+.randomColorBackground8 {
+  background-color: var(--background-color8);
+}
+.randomColorBackground9 {
+  background-color: var(--background-color9);
+}
+.randomColorBackground10 {
+  background-color: var(--background-color10);
+}
+
+
+  

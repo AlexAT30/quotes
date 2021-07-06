@@ -1,20 +1,19 @@
 import { useState } from "react";
 import quotesData from "./quotesData";
-import Quotes from "./Quotes"
-import Button from "./Button"
-import TwitterButton from "./TwitterButton"
+import Quotes from "./Quotes";
+import Buttons from "./Buttons";
 
-const Container = () => {
-  const [randomNumber, setRandomNumber] = useState (Math.floor (Math.random () * 103) +1);
+const Container = ({randomColor, setRandomColor}) => {
+  const [randomNumber, setRandomNumber] = useState (Math.floor (Math.random () * 101) +1);
+  console.log(randomNumber);
+  console.log(quotesData);
   return (
-    <div>
-      <Quotes quote = {quotesData[randomNumber].quote} author = {quotesData[randomNumber].author}/>
-      <Button setRandomNumber = {setRandomNumber}/>
-      <TwitterButton quote = {quotesData[randomNumber].quote} author = {
+    <div className={`container randomColorContainer${randomColor}`}>
+      <Quotes quote={quotesData[randomNumber].quote} author={quotesData[randomNumber].author} randomColor={randomColor} />
+      <Buttons setRandomNumber={setRandomNumber} quote={quotesData[randomNumber].quote} author={
         // Elimina los espacios en el nombre del autor por 
         (quotesData[randomNumber].author).replace (/ /g, "")
-      }/>
-
+      } randomColor={randomColor} setRandomColor={setRandomColor} />
     </div>
   );
 }
