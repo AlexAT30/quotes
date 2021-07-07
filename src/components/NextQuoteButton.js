@@ -1,6 +1,4 @@
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faAngleRight} from "@fortawesome/free-solid-svg-icons";
- 
+import {MdKeyboardArrowRight} from "react-icons/md"
 
 const NextQuoteButton = ({setRandomNumber, randomColor, setRandomColor }) => {
   return (
@@ -11,7 +9,7 @@ const NextQuoteButton = ({setRandomNumber, randomColor, setRandomColor }) => {
           setRandomColor (Math.floor (Math.random () * 10) +1);
         }
       }>
-        <FontAwesomeIcon icon={faAngleRight} />
+        <MdKeyboardArrowRight />
       </button>
     </div>
   );

@@ -1,5 +1,4 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import {AiOutlineTwitter} from "react-icons/ai"
 
 const TwitterButton = ({quote, author, randomColor}) => {
   // Link para compartir en twitter la cita con su autor como hashtag
@@ -8,7 +7,7 @@ const TwitterButton = ({quote, author, randomColor}) => {
     <div>
       <button className={`twitterButton randomColorButtons${randomColor}`} >
         <a className={`randomColorTwitter${randomColor}`} href={twitterUrl}>
-          <FontAwesomeIcon icon={faTwitter}/>
+          <AiOutlineTwitter />
         </a>
       </button>
     </div>

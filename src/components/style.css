@@ -40,9 +40,6 @@ button {
   cursor: pointer;
 }
 /* NextQuoteButton */
-.nextQuoteButton {
-  padding: 1rem 1.5rem;
-}
 
 /* TwitterButton */
 .twitterButton {
