@@ -3,7 +3,7 @@ const NextQuoteButton = ({setRandomNumber, randomColor, setRandomColor }) => {
     <div>
       <button className={`nextQuoteButton randomColorButtons${randomColor}`} onClick={
         () => {
-          setRandomNumber (Math.floor (Math.random () * 103) +1);
+          setRandomNumber (Math.floor (Math.random () * 101) +1);
           setRandomColor (Math.floor (Math.random () * 10) +1);
         }
       }>
