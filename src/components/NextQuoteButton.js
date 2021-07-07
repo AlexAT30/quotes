@@ -1,5 +1,3 @@
-import {MdKeyboardArrowRight} from "react-icons/md"
-
 const NextQuoteButton = ({setRandomNumber, randomColor, setRandomColor }) => {
   return (
     <div>
@@ -9,7 +7,7 @@ const NextQuoteButton = ({setRandomNumber, randomColor, setRandomColor }) => {
           setRandomColor (Math.floor (Math.random () * 10) +1);
         }
       }>
-        <MdKeyboardArrowRight />
+        Next Quote
       </button>
     </div>
   );

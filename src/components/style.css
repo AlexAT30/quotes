@@ -33,14 +33,16 @@
   justify-content: flex-end;
 }
 button {
+  font-weight: 700;
   border: none;
   padding: 1rem;
-  font-size: 2rem;
+  font-size: 1rem;
   border-radius: 5rem;
   cursor: pointer;
 }
-/* NextQuoteButton */
-
+a {
+  text-decoration: none;
+}
 /* TwitterButton */
 .twitterButton {
   margin-right: 1rem;
