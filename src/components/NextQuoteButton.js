@@ -7,7 +7,7 @@ const NextQuoteButton = ({setRandomNumber, randomColor, setRandomColor }) => {
           setRandomColor (Math.floor (Math.random () * 10) +1);
         }
       }>
-        Next Quote
+        New Quote
       </button>
     </div>
   );

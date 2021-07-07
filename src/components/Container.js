@@ -5,9 +5,8 @@ import Buttons from "./Buttons";
 
 const Container = ({randomColor, setRandomColor}) => {
   const [randomNumber, setRandomNumber] = useState (Math.floor (Math.random () * 101) +1);
-  console.log(randomNumber);
   return (
-    <div className={`container randomColorContainer${randomColor}`}>
+    <div className={`container randomColorContainer${randomColor}`} >
       <Quotes quote={quotesData[randomNumber].quote} author={quotesData[randomNumber].author} randomColor={randomColor} />
       <Buttons setRandomNumber={setRandomNumber} quote={quotesData[randomNumber].quote} author={
         // Elimina los espacios en el nombre del autor por 
