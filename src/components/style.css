@@ -36,7 +36,7 @@ button {
   font-weight: 700;
   border: none;
   padding: 1rem;
-  font-size: 1rem;
+  font-size: 2rem;
   border-radius: 5rem;
   cursor: pointer;
 }
@@ -49,6 +49,10 @@ a {
 }
 
 /* Quotes */
+.quoteIcon {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
 .quotes {
   margin-bottom: 1rem;
 }

@@ -5,7 +5,7 @@ const TwitterButton = ({quote, author, randomColor}) => {
     <div>
       <button className={`twitterButton randomColorButtons${randomColor}`} >
         <a className={`randomColorTwitter${randomColor}`} href={twitterUrl}>
-          #Share with Twitter
+          <i class="fab fa-twitter"></i>
         </a>
       </button>
     </div>

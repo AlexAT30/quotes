@@ -7,7 +7,7 @@ const NextQuoteButton = ({setRandomNumber, randomColor, setRandomColor }) => {
           setRandomColor (Math.floor (Math.random () * 10) +1);
         }
       }>
-        New Quote
+        <i class="fas fa-chevron-right"></i>
       </button>
     </div>
   );
